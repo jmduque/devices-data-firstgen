@@ -17,7 +17,7 @@
 					</tr>
 					<tr ng-repeat="char in characters">
 						<th>{{char.created_at}}</th>
-						<th>{{char.IMEI}}</th>
+						<th><a target="_self" href="?imei={{char.IMEI}}">{{char.IMEI}}</a></th>
 						<th>{{char.A}}</th>
 						<th>{{char.P}}</th>
 						<th>{{char.ST}}</th>
