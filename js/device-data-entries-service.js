@@ -13,7 +13,7 @@ angular.module('DeviceDataEntries').service('DeviceDataEntriesService', function
 	}
 
 	this.getEntries = function() {
-		var finalUrl = "http://ext-devices-api.energolabs.com/api/v1/devices/data?token=6926a45f-7993-4aca-b116-ece074240ba1&limit=1000";
+		var finalUrl = "http://ext-devices-api.energolabs.com/api/v1/devices/data?token=6926a45f-7993-4aca-b116-ece074240ba1&limit=1500";
 		var imei = this.getParameter('imei');
 		if (imei) {
 			finalUrl += "&imei=" + imei;
